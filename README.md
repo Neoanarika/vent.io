@@ -1,6 +1,6 @@
 # vent.io
 
-> Vent your frustrations.
+> Vent your frustrations and dump them in an instant.
 
 ## Build Setup
 
