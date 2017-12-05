@@ -1,8 +1,8 @@
 <template>
-    <!-- <button id="delete-button" class="button"><i class="fa fa-trash-o"></i>&nbsp&nbspi feel better</button> -->
+    <!-- Delete Button -->
     <button id="delete-button" class="is-radiusless">
         <i class="fa fa-trash-o"></i>
-    </button>
+    </button><!-- End of Delete Button -->
 </template>
 
 <script>
@@ -30,7 +30,6 @@ export default {
 
     #delete-button:hover > i {
         font-size: 1.5rem;
-        // background-color: whitesmoke;
     }
 
     #delete-button:focus {

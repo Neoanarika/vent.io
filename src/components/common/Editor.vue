@@ -1,10 +1,7 @@
 <template>
     <!-- Editor Textarea -->
-    <!-- <div> -->
     <textarea :value="value" v-focus="focused" id="editor-textarea" class="textarea" placeholder="Let it out here..." @input="$emit('input', $event.target.value)">
-    </textarea>
-    <!-- <p>{{ $data }}</p>
-    </div> -->
+    </textarea><!-- End of Editor Textarea -->
 </template>
 
 <script>
@@ -26,7 +23,7 @@ export default {
     }
   },
   mounted: function () {
-    // Allows textarea to expand indefinitely with text
+    // Allows textarea to expand indefinitely with text input
     autosize(this.$el)
   }
 }
@@ -47,6 +44,7 @@ export default {
         max-height: none;
     }
 
+    /* Media Query for Max-Width 480px */
     @media (max-width: 480px) {
         #editor-textarea {
             padding: 50px 10%;
